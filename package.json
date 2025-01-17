@@ -7,7 +7,7 @@
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run start\" \"npm run client\"",
     "server": "nodemon backend/server.mjs",
-    "build": "npm intsall --legacy-peer-deps && npm intsall --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
 
   },
   "author": "",
